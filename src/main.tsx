@@ -18,8 +18,8 @@ WebApp.setHeaderColor("#0094FF");
 //Main Button
 WebApp.MainButton.setText("Browse")
 WebApp.MainButton.color = "#000"
-WebApp.MainButton.show()
-// WebApp.MainButton.hide()
+WebApp.MainButton.isVisible = true
+// WebApp.MainButton.disable()
 
 
 eruda.init()
