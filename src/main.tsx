@@ -16,11 +16,11 @@ WebApp.enableClosingConfirmation();
 WebApp.setHeaderColor("#0094FF");
 
 //Main Button
-WebApp.MainButton.setText("Browse Product")
-WebApp.MainButton.color = "#000"
-WebApp.MainButton.textColor = "#000"
-WebApp.MainButton.show()
-WebApp.MainButton.isVisible = true
+// WebApp.MainButton.setText("Browse Product")
+// WebApp.MainButton.color = "#000"
+// WebApp.MainButton.textColor = "#000"
+// WebApp.MainButton.isVisible = true
+// WebApp.MainButton.hide()
 
 
 eruda.init()
