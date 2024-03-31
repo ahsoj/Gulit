@@ -8,10 +8,13 @@ import WebApp from "@twa-dev/sdk";
 
 const availablePlatform = ["android", "android_x", "ios"]
 
-WebApp.isVersionAtLeast('6.1') && WebApp.ready();
+WebApp.isVersionAtLeast('6.1')
+WebApp.ready();
+console.log(WebApp.initData)
+WebApp.expand();
 WebApp.enableClosingConfirmation();
 WebApp.setHeaderColor("#0094FF");
-
+WebApp.MainButton.disable()
 eruda.init()
 
 if (availablePlatform.map((platform) => WebApp.platform === platform)) {
