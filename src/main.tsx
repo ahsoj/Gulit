@@ -14,7 +14,14 @@ console.log(WebApp.initData)
 WebApp.expand();
 WebApp.enableClosingConfirmation();
 WebApp.setHeaderColor("#0094FF");
-WebApp.MainButton.disable()
+
+//Main Button
+WebApp.MainButton.setText("")
+WebApp.MainButton.color = "#000"
+WebApp.MainButton.show()
+// WebApp.MainButton.
+
+
 eruda.init()
 
 if (availablePlatform.map((platform) => WebApp.platform === platform)) {
